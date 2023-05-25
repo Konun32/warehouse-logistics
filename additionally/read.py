@@ -14,9 +14,9 @@
 from pyzbar.pyzbar import decode
 from PIL import Image
 
-image_barcode = Image.open('C:\Users\Admin\Desktop\Компьютерное зрение\Курсач\img')
+image_barcode = Image.open('C:\img')
 decoded = decode(image_barcode)
-f = open('C:\Users\Admin\Desktop\Компьютерное зрение\Курсач\result.txt','w')  # открытие в режиме записи
+f = open('C:\result.txt','w')  # открытие в режиме записи
 f.write(decoded[0].data.decode("utf-8"))
 f.close()
 print(decoded[0].data.decode("utf-8"))

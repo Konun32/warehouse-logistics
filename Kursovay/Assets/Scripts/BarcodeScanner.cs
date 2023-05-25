@@ -13,11 +13,11 @@ public class BarcodeScanner : MonoBehaviour
     // Путь к исполняемому файлу Python
     string pythonPath = "python";
     // Путь к Python-скрипту
-    string scriptPath = "C:/Users/LexaD/Documents/Kursovay/read.py";
+    string scriptPath = "C:/read.py";
     // Путь для сохранения фотографии
-    string imagePath = "C:/Users/LexaD/Documents/Kursovay/img/image.png";
+    string imagePath = "C:/img/image.png";
     // Путь к файлу с результатом
-    string resultFilePath = "C:/Users/LexaD/Documents/Kursovay/result.txt";
+    string resultFilePath = "C:/result.txt";
     
     // Публичное поле для привязки камеры в Unity
     public Camera cameraToUse;
