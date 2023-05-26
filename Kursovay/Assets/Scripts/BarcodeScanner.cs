@@ -193,7 +193,7 @@ public class BarcodeScanner : MonoBehaviour
         }
         else
         {
-            print("Ха лох");
+            print("Штрих код не считался");
         }
     }
 }
