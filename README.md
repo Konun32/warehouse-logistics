@@ -21,3 +21,5 @@ string resultFilePath = "Путь к result.txt";
 image_barcode = Image.open("Путь до сохранённого изображения")
 f = open('Путь до файла result.txt','w')
 ```
+
+Ссылка на видео работы данной системы: https://www.youtube.com/watch?v=XMvg-WIKh_8
