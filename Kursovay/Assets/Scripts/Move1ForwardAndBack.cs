@@ -72,7 +72,7 @@ public class Move1ForwardAndBack : MonoBehaviour
         else
         {
             transform.position += transform.forward * speed * Time.deltaTime;
-            if (Vector3.Distance(transform.position, startPosition) <= 0.1f)
+            if (Vector3.Distance(transform.position, startPosition) <= 0.3f)
             {
                 movingBack = true;
                 movementCount++;
